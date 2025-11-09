@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08. Form (with Flex)</title>
+    <link rel="stylesheet" href="./assets/style/form-flexBox.css">
+</head>
+<body>
+    <header>
+        <h1>create an account</h1>
+        <h2>We always keep your name and email adress private.</h2>
+    </header>
+    <main>
+        <form action="">
+            <div class="personalInfo">
+                 <div class="form-element">
+                    <input placeholder="First Name" id="firstName" type="text">
+                </div>
+                <div class="form-element">
+                    <input placeholder="Last Name" id="lastName" type="text">
+                </div>
+                <div class="form-element">
+                    <input placeholder="Display name" id="displayName" type="text">
+                </div>
+                <div class="form-element">
+                    <input placeholder="Email Address" id="Email" type="email">
+                </div>
+                <div class="form-element">
+                    <input placeholder="Password" id="Password" type="password">
+                </div>
+               <div class="form-element">
+                    <input placeholder="Password Confirmation" id="PasswordConfirmation" type="password">
+                </div>
+        
+         <div class="form-element-radio-chek">
+            <div class="form-element-radio">
+                 <input id="JoinAs" type="radio" name="JoinAs">
+                <label for="JoinAs">
+                    <h2>Join As a Buyer</h2>
+                    <p>I am looking for a Name,Logo or Tagline for my business, brend orproduct.</p>
+                </label>
+            </div>
+            <div class="form-element-radio">
+                <input id="JoinAs" type="radio" name="JoinAs">
+                <label for="JoinAs">  
+                    <h2>Join As a Creative orMarketplace Seller</h2>
+                    <p>I plan to submit name ideas. Logo designs or sell names in Domain Marketplase.</p>    
+                </label>
+            </div>
+             <div class="form-element-chek">
+                <input id="Squadhelp" type="checkbox">
+                <label for="Squadhelp">Allow Squadhelp to send marketing/promotional offers from time to time</label>
+            </div>
+        </div>
+        </form>
+    </main>
+    <footer><button>Create account</button></footer>
+</body>
+</html>

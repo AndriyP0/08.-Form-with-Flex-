@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    background-color: #fff;
+}
+
+body{
+    background-color: #3daaf6;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    border-top: 2px solid black;
+    border-left: 1px solid black;
+}
+button{
+    border: none;
+    background-color: #28d2d1;
+    color: white;
+    width: 77%;
+    padding: 20px;
+}
+h1{
+font-size: 35px;
+text-transform: uppercase;
+}
+h2{
+    font-size: 15px;
+    max-width: 300px;
+    text-align: center;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.personalInfo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+input{
+    padding: 20px;
+    font-size: 15px;
+}
+.form-element-radio-chek{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-element-radio{
+    border:1px solid #fff;
+    margin-top: 10px;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 10px ;
+    width: 95%;
+    gap: 5px;
+    margin-left: 12px;
+}
+p{
+    font-size: 10px;
+    padding-top: 5px;
+}
+footer{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 0;
+
+}
